@@ -1,0 +1,22 @@
+uuid: 09c30b4a-4f15-4599-8d84-f2698cf6abaa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8cards
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: d8cards_powered
+theme: d8cards
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

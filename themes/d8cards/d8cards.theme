@@ -1,0 +1,6 @@
+<?php
+
+function d8cards_preprocess_paragraph__social_media__default(&$variables) {
+//$variables['output'] = $variables['field']->advancedRender($variables['row']);
+//kint($variables);die('hehe');
+}

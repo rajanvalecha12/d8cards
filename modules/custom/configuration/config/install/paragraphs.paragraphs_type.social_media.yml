@@ -1,0 +1,9 @@
+uuid: 91b7f81e-ab1d-4aee-ba67-f21e93cfc5c6
+langcode: en
+status: true
+dependencies: {  }
+id: social_media
+label: 'Social Media'
+icon_uuid: null
+description: 'D8 card no. 2'
+behavior_plugins: {  }

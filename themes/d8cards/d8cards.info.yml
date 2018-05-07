@@ -1,0 +1,5 @@
+name: d8cards
+type: theme
+description: This is a subtheme of classy
+core: 8.x
+base theme: bartik

@@ -1,0 +1,22 @@
+uuid: e0bf9dc2-1cc6-4a1b-87e6-801d899fc722
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - d8cards
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: d8cards_search
+theme: d8cards
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
