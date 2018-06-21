@@ -1,0 +1,49 @@
+diff --git a/webprofiler/src/DataCollector/DrupalDataCollectorTrait.php b/webprofiler/src/DataCollector/DrupalDataCollectorTrait.php
+index 98a3faf..a523644 100644
+--- a/webprofiler/src/DataCollector/DrupalDataCollectorTrait.php
++++ b/webprofiler/src/DataCollector/DrupalDataCollectorTrait.php
+@@ -7,6 +7,13 @@ namespace Drupal\webprofiler\DataCollector;
+  */
+ trait DrupalDataCollectorTrait {
+ 
++  /**
++   * {@inheritdoc}
++   */
++  public function reset() {
++    $this->data = array();
++  }
++
+   /**
+    * {@inheritdoc}
+    */
+diff --git a/webprofiler/src/DataCollector/RequestDataCollector.php b/webprofiler/src/DataCollector/RequestDataCollector.php
+index 9de8f49..e36d32f 100644
+--- a/webprofiler/src/DataCollector/RequestDataCollector.php
++++ b/webprofiler/src/DataCollector/RequestDataCollector.php
+@@ -52,6 +52,8 @@ class RequestDataCollector extends BaseRequestDataCollector implements DrupalDat
+    * @param $service_id
+    * @param $callable
+    * @param $request
++   *
++   * @throws \ReflectionException
+    */
+   public function addAccessCheck($service_id, $callable, Request $request) {
+     $this->accessCheck[$request->getPathInfo()][] = [
+@@ -60,6 +62,17 @@ class RequestDataCollector extends BaseRequestDataCollector implements DrupalDat
+     ];
+   }
+ 
++  /**
++   * {@inheritdoc}
++   *
++   * In Symfony 3 the data for the RequestDataCollector are converted to string
++   * with \Symfony\Component\HttpKernel\DataCollector/DataCollector::cloneVar()
++   * in \Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::lateCollect(),
++   * but for some reasons they aren't unserialized back to array later.
++   * At the moment we simply override that method to avoid conversion.
++   */
++  public function lateCollect() {}
++
+   /**
+    * {@inheritdoc}
+    */

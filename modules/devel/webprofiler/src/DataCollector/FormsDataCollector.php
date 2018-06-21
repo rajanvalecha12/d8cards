@@ -41,7 +41,7 @@ class FormsDataCollector extends DataCollector implements DrupalDataCollectorInt
    * @return array
    */
   public function getForms() {
-    return $this->data['forms'];
+    return (!empty($this->data['forms']) && is_array($this->data['forms'])) ? $this->data['forms'] : [];
   }
 
   /**

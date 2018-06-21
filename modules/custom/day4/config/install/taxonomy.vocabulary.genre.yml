@@ -1,0 +1,9 @@
+uuid: bca300c5-29fc-4c90-a60d-ac1ac16faeed
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: genre
+description: ''
+hierarchy: 0
+weight: 0

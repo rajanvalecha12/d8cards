@@ -1,0 +1,25 @@
+<?php
+
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Queue\QueueFactory;
+use Drupal\Core\Queue\QueueInterface;
+
+/**
+ * Implements hook_entity_insert().
+ */
+function day7_entity_insert(EntityInterface $entity) {
+
+  if ($entity->getEntityTypeId() == 'user') {
+
+    /** @var QueueFactory $queue_factory */
+    $queue_factory = \Drupal::service('queue');
+
+    /** @var QueueInterface $queue */
+    $queue = $queue_factory->get('cron_welcome_mail_sender');
+
+    $item = new \stdClass();
+    /** @var \Drupal\user\Entity\User $entity */
+    $item->nid = $entity->id();
+    $queue->createItem($item);
+  }
+}

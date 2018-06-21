@@ -1,0 +1,10 @@
+block_library:
+  css:
+    css/d8cards_day09.css: {}
+  js:
+    js/d8cards_day09.js: {}
+
+table_library:
+  css:
+    theme:
+      css/d8cards_day09_table.css: {}

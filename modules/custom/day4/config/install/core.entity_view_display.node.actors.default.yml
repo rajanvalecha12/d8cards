@@ -1,0 +1,17 @@
+uuid: ee85cccd-63bb-4e8c-9d9d-76d16acd5e88
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.actors
+  module:
+    - user
+id: node.actors.default
+targetEntityType: node
+bundle: actors
+mode: default
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

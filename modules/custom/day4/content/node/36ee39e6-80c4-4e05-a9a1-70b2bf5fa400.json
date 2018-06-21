@@ -1,0 +1,229 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/34?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/movie"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/uid": [
+            {
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/field_actors": [
+            null,
+            null,
+            null
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/field_genre": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/field_movie_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/images"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 34
+        }
+    ],
+    "uuid": [
+        {
+            "value": "36ee39e6-80c4-4e05-a9a1-70b2bf5fa400"
+        }
+    ],
+    "vid": [
+        {
+            "value": 34
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "movie"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-06-13T00:12:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4dd44ede-9661-4cce-b251-cfddd3f8e372"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4dd44ede-9661-4cce-b251-cfddd3f8e372"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/field_actors": [
+            null,
+            null,
+            null
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/field_genre": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/genre"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a7635634-f18c-4db3-808c-9118c4efe94c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/genre"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0c8cab36-5bd0-4a3b-a080-8352f52b6cd5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/movie\/field_movie_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/images"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d817d117-7507-4229-ac59-c3013468701c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Shawshank Redemption",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-13T00:12:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-06-13T00:12:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "format": null,
+            "processed": "<p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

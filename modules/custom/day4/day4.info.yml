@@ -1,0 +1,10 @@
+name: Day 4
+type: module
+core: '8.x'
+description: CSV to Drupal 8 Migration
+dependencies:
+  - migrate_tools
+  - migrate_plus
+  - migrate_source_csv
+  - migrate_file
+  - default_content

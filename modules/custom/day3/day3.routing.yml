@@ -1,0 +1,7 @@
+mymodule.settings:
+  path: '/mymodule/config'
+  defaults:
+    _form: '\Drupal\day3\Form\day3SettingsForm'
+    _title: 'My Module Day 3 Configuration'
+  requirements:
+    _permission: 'access day3 configuration'

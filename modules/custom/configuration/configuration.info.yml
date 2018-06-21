@@ -2,3 +2,6 @@ type: module
 name: Configurations
 description: 'Various configurations like content types,settings etc.'
 core: '8.x'
+dependencies:
+  - drupal:paragraphs
+  - drupal:default_content

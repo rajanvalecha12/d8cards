@@ -1,0 +1,5 @@
+name: Day 09
+type: module
+description: 'Day 09 - Attaching assets (css/js) on D8'
+package: D8 cards
+core: 8.x

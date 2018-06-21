@@ -1,0 +1,8 @@
+name: Drupal 8 cards
+type: module
+description: 'Provides code for you to learn and practice D8 cards.'
+package: Drupal 8 Cards
+dependencies:
+  - drupal:toolbar
+core: '8.x'
+project: 'examples'

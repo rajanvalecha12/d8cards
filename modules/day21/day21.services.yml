@@ -1,0 +1,5 @@
+services:
+  day21.allow_access_origin:
+    class: Drupal\day21\EventSubscriber\Day21Subscriber
+    tags:
+      - {name: event_subscriber}

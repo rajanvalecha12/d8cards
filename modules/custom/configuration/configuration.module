@@ -1,0 +1,41 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: rajan.valecha
+ * Date: 07/05/18
+ * Time: 1:44 PM
+ */
+/**
+ * Implements hook_theme().
+ */
+function configuration_theme() {
+    return [
+        'paragraph__social_media__default' => [
+            'base hook' => 'paragraph',
+        ],
+    ];
+}
+
+//$moduleHandler = \Drupal::service('module_handler');
+//if ($moduleHandler->moduleExists('configuration')){
+//    // Code Herery to complete bonus excercise if given for a particular day's activity.
+//    $node = \Drupal\node\Entity\Node::create([
+//        // The node entity bundle.
+//        'type' => 'article',
+//        'langcode' => 'en',
+//        // The user ID.
+//        'uid' => 1,
+//        'moderation_state' => 'published',
+//        'title' => 'Test Article with multiple social media embeds',
+//        'body' => 'This is a test article with multiple social media embeds from youtube, facebook and twitter',
+//
+//        'field_social_media' => array(
+//            'field_embed_code' => '<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Become a Swachh Bharat intern this summer and devote 100 hours towards spreading awareness about safe <a href="https://twitter.com/hashtag/sanitation?src=hash&amp;ref_src=twsrc%5Etfw">#sanitation</a> across rural communities. Last date to register is May 15, 2018. To know more, visit: <a href="https://t.co/9MJVHHjn0Q">https://t.co/9MJVHHjn0Q</a>. <a href="https://twitter.com/hashtag/SwachhSummer?src=hash&amp;ref_src=twsrc%5Etfw">#SwachhSummer</a> <a href="https://t.co/pJLxNoVhSR">pic.twitter.com/pJLxNoVhSR</a></p>&mdash; Swachh Bharat (@swachhbharat) <a href="https://twitter.com/swachhbharat/status/991270108457652224?ref_src=twsrc%5Etfw">May 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
+//            'field_link'=> array(
+//                'uri' => 'https://twitter.com/swachhbharat/status/991270108457652224',
+//                'title' => 'open this tweet on twitter',
+//            ),
+//        )
+//    ]);
+//    $node->save();
+//}

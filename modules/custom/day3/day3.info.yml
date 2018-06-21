@@ -1,0 +1,4 @@
+name: Day 3 of Drupal 8 activity cards
+type: module
+core: '8.x'
+description: Day 3 module with configuration form

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="AAA">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="AAP">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Acquia Delhi">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Acquia India">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Alshaya">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="CHN">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Codeziner">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Collage Board">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="D8Sandbox">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="DCD">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Drupal7">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Drupal8sandbox">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Drupixels">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Drupixels D8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Fox-HTS">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="GroupFit">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="InForTrip">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Javascript Sandbox">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Lingual Consultancy">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="PPC">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="PWA-Sandbox">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Pfizersaas">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Sandbox Drupal7">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="TeacherBuddies">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="TripGully">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="TripGullyD8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="TwitterD8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="VoyaIM">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="calstate.aaa.com">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="calstate.aaa.com (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ppc">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sandbox.drupal8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wellington-kb">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wellington-wbc">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../drupal_exp_dk" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

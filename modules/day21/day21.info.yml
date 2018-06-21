@@ -1,0 +1,5 @@
+name: D8Cards Day 21
+type: module
+description: 'Day 21 ­ hook init replacement with event subscribers.'
+package: D8 cards
+core: 8.x
